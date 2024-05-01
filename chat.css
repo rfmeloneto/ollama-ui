@@ -5,6 +5,10 @@ body {
     font-family: 'Arial', sans-serif;
 }
 
+.hidden {
+  display: none;
+}
+
 .user-message {
     background-color: rgb(86, 144, 163);
 	color: white;

@@ -179,10 +179,10 @@ async function submitRequest() {
   let interrupt = new AbortController();
   let stopButton = document.createElement('button');
   stopButton.className = 'btn btn-danger';
-  stopButton.innerHTML = 'Stop';
+  stopButton.innerHTML = 'Parar';
   stopButton.onclick = (e) => {
     e.preventDefault();
-    interrupt.abort('Stop button pressed');
+    interrupt.abort('Botão de Parar pressionado');
   }
   // add button after sendButton
   const sendButton = document.getElementById('send-button');
